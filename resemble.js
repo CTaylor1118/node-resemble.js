@@ -478,6 +478,16 @@ var _this = {};
 					if(hasMethod) { param(); }
 					return self;
 				},
+				setTolerance: function(value){
+
+					tolerance.red = value;
+					tolerance.green = value;
+					tolerance.blue = value;
+					tolerance.alpha = value;
+
+					if(hasMethod) { param(); }
+					return self;
+				},
 				ignoreAntialiasing: function(){
 
 					tolerance.red = 32;
