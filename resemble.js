@@ -485,6 +485,8 @@ var _this = {};
 					tolerance.blue = value;
 					tolerance.alpha = value;
 
+					ignoreColors = false;
+
 					if(hasMethod) { param(); }
 					return self;
 				},
